@@ -1,6 +1,6 @@
 import { Card, Image } from "react-bootstrap";
 
-export default () => (
+export default function Intro() {(
   <Card className="mb-4 admin-intro">
     <Image
       roundedCircle
@@ -18,4 +18,4 @@ export default () => (
       </p>
     </Card.Body>
   </Card>
-);
+)};
