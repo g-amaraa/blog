@@ -1,6 +1,6 @@
 import { Card } from "react-bootstrap";
 
-export default function ListItem () { (
+export default function ListItem () { return (
   <Card className={`fj-card fj-card-list`}>
     <div className="card-body-wrapper">
       <Card.Header className="d-flex flex-row">
